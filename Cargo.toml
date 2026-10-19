@@ -1,0 +1,11 @@
+[package]
+name = "adc_monitor"
+version = "0.1.0"
+edition = "2024"
+description = "10-channel serial ADC monitor with egui plots"
+license = "GNU"
+
+[dependencies]
+eframe = "0.36.2"
+egui_plot = "0.37.0"
+serialport = "4.10.1"
